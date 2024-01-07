@@ -1,0 +1,60 @@
+:root {
+    --primary-color: #00b98e;
+    --primary-dark-color: #02ab83;
+    --primary-light-colors: #02ab83;
+    --accent-color: #0e2e50;
+
+    --white: #EFFDF5;
+    --neutral: #666565;
+
+    font-size: 18px;
+}
+
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+    
+}
+
+.btn-accent {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.h3categories{
+    font-weight: 400;
+}
+.spandih3{
+    font-weight: bold;
+}
+
+.myiconcard{
+    border: dashed var(--primary-color);
+    color: var(--primary-color) !important;
+    
+}
+a.verde:hover{
+    background-color: var(--primary-color)!important;
+
+}
+
+.cardtex{
+    font-size:medium;
+}
+
+body {
+    background-color: var(--white);
+}
+
+.sottnone{
+    text-decoration: none;
+}
+.footer{
+    background-color: rgba(243, 241, 241, 0.908);
+}
+.h5Footer{
+    font-weight: 50;
+}
